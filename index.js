@@ -1,9 +1,9 @@
 // Add your code here
-function submitData() {
-    let formData = {
-        name: "name",
-        email: "email"
-      };
+function submitData(name, email) {
+    // let formData = {
+    //     name: "name",
+    //     email: "email"
+    //   };
 
       let configObj = {
         method: "POST",
@@ -11,18 +11,23 @@ function submitData() {
           "Content-Type": "application/json",
           "Accept": "application/json"
         },
-        body: JSON.stringify(formData)
+        body: JSON.stringify({
+            name,
+            email
+        })
       };
 
-      fetch("http://localhost:3000/users", configObj)
+     fetch("http://localhost:3000/users", configObj)
       .then(function(response) {
         return response.json();
       })
       .then(function(object) {
-        console.log(object);
+       // console.log(object);
+       document.body.innerHTML = object[ "id" ]
       })
       .catch(function(error) {
-        alert("Unauthorized Access");
-        console.log(error.message);
+        //alert("Unauthorized Access");
+        //console.log(error.message);
+        document.body.innerHTML = error.message
       });
 }
