@@ -1,5 +1,6 @@
 {
-  "dogs": [{
+  "dogs": [
+    {
       "dogName": "Luca",
       "dogBreed": "German Shepherd",
       "id": 1
@@ -8,9 +9,22 @@
       "dogName": "Lola",
       "dogBreed": "Giant Schnauzer",
       "id": 2
+    },
+    {
+      "dogName": "Buddy",
+      "dogBreed": "Weiner",
+      "submit": "Submit",
+      "id": 3
+    },
+    {
+      "dogName": "Buddy",
+      "dogBreed": "sausage",
+      "submit": "Submit",
+      "id": 4
     }
   ],
-  "cats": [{
+  "cats": [
+    {
       "catName": "Stanley",
       "catBreed": "Tabby",
       "id": 1
@@ -21,10 +35,733 @@
       "id": 2
     }
   ],
-  "users": [],
-  "robots": [{
-    "robotName": "C8-09S100K",
-    "robotType": "Human Assistant",
-    "id": 9000
-  }]
+  "users": [
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 1
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 2
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 3
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 4
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 5
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 6
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 7
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 8
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 9
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 10
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 11
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 12
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 13
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 14
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 15
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 16
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 17
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 18
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 19
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 20
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 21
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 22
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 23
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 24
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 25
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 26
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 27
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 28
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 29
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 30
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 31
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 32
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 33
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 34
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 35
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 36
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 37
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 38
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 39
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 40
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 41
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 42
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 43
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 44
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 45
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 46
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 47
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 48
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 49
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 50
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 51
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 52
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 53
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 54
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 55
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 56
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 57
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 58
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 59
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 60
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 61
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 62
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 63
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 64
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 65
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 66
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 67
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 68
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 69
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 70
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 71
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 72
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 73
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 74
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 75
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 76
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 77
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 78
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 79
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 80
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 81
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 82
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 83
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 84
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 85
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 86
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 87
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 88
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 89
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 90
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 91
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 92
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 93
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 94
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 95
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 96
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 97
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 98
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 99
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 100
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 101
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 102
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 103
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 104
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 105
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 106
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 107
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 108
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 109
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 110
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 111
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 112
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 113
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 114
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 115
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 116
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 117
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 118
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 119
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 120
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 121
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 122
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 123
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 124
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 125
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 126
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 127
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 128
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 129
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 130
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 131
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 132
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 133
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 134
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 135
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 136
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 137
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 138
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 139
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 140
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 141
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 142
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 143
+    },
+    {
+      "name": "Rick",
+      "email": "ena",
+      "id": 144
+    }
+  ],
+  "robots": [
+    {
+      "robotName": "C8-09S100K",
+      "robotType": "Human Assistant",
+      "id": 9000
+    }
+  ]
 }
