@@ -14,12 +14,23 @@ function submitData(userName, userEmail) {
     };
 
     let url = 'http://localhost:3000/users';
-    /* Begin: asynchronous block:*/
+/*
     let f = fetch(url, configObj);// send data
-    //debugger
         let ft = f.then(getJSON);//handle response
             let ftt = ft.then(callRender);// handle response
                 ftt.catch(handleErrors);//handle any errors
+-----------  THE ABOVE IS NOT ASYNCHRONOUS!---------------
+ -----------FOLOWING IS ASYCNHRONOUS----------
+    return fetch (url, configObj)
+        .then( response => response.json() )
+        .then (json => render(json))
+        .catch(error=> handleErrors(error));
+                */
+    /* Begin: asynchronous block:*/
+    let f= fetch (url, configObj)
+        .then(getJSON )
+        .then (callRender)
+        .catch(handleErrors);
     /* End: asynchronous block */
     return f;
 }
@@ -29,7 +40,7 @@ function callRender (json) {render(json);}
 
 function render(user){
     let body = document.querySelector('body');
-    //console.log("users ====> " + user.id);
+    //console.log("users ====> id: " + user.id + " name: " + user.name + " email:" +user.email);
     const h6 = document.createElement('h6');
         h6.innerHTML = `${user.id}`;
     body.appendChild(h6);
