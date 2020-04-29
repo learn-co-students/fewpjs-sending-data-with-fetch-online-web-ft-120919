@@ -12,8 +12,6 @@ describe( "submitData()", () => {
 
     rando = Math.ceil( Math.random() * 1000 )
 
-
-
     chai.spy.on( window, 'fetch' );
     window.onerror = undefined;
 
