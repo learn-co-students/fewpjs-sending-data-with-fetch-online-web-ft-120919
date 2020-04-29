@@ -22,7 +22,7 @@ function submitData(name, email) {
   }
 
   // asynchronise call to server at url containing the configObj
-  fetch("http://localhost:3000/users", configObj)
+  return fetch("http://localhost:3000/users", configObj)
     // receive response object and parse body text as JSON
     .then(res => res.json())
     .then(function(json) {
